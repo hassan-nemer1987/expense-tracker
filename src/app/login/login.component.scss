@@ -1,0 +1,21 @@
+/* This applies to the background wrapper div */
+.login-background {
+  height: 100vh;
+  width: 100%;
+  background-image: url('/src/cedar.jpg'); /* Correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* This applies to the login content */
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
