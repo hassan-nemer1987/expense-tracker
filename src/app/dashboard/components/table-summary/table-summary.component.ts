@@ -31,6 +31,7 @@ import { BulkEditDialogResult } from '../../interfaces/bulk-edit-dialog-data';
 @Component({
   selector: 'app-table-summary',
   templateUrl: 'table-summary.component.html',
+   standalone: true,
   imports: [
     MatTableModule,
     NgClass,

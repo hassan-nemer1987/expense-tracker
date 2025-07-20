@@ -4,6 +4,7 @@ import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-footer-links',
+   standalone: true,
   imports: [MatIcon, MatIconButton],
   templateUrl: './footer-links.component.html',
   styleUrl: './footer-links.component.scss',

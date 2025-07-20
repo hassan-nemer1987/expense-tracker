@@ -14,6 +14,7 @@ import { TimeFrameFilter } from '../../interfaces/time-frame-filter';
 
 @Component({
   selector: 'app-year-data-selector',
+   standalone: true,
   imports: [
     MatDatepickerModule,
     ReactiveFormsModule,

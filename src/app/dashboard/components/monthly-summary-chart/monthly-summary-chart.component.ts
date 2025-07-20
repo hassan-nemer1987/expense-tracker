@@ -17,6 +17,7 @@ import { Expense } from '../../../core/interfaces/expense-model';
 
 @Component({
   selector: 'app-monthly-summary-chart',
+   standalone: true,
   templateUrl: './monthly-summary-chart.component.html',
   styleUrls: ['./monthly-summary-chart.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -5,6 +5,7 @@ import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-close-and-redirect',
+   standalone: true,
   imports: [MatIconButton, MatIcon, RouterLink],
   templateUrl: './close-and-redirect.component.html',
   styleUrl: './close-and-redirect.component.scss',

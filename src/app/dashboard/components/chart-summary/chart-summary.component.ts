@@ -5,6 +5,7 @@ import { ChartData } from '../../interfaces/chart-data';
 
 @Component({
   selector: 'app-chart-summary',
+   standalone: true,
   templateUrl: 'chart-summary.component.html',
   imports: [HighchartsChartModule],
   changeDetection: ChangeDetectionStrategy.OnPush,

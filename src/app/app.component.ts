@@ -7,6 +7,7 @@ import { UserService } from './core/services/user.service';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterModule, LayoutComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

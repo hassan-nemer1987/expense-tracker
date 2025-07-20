@@ -27,9 +27,10 @@ import { UserDetailsComponent } from '../user-details/user-details.component';
 
 @Component({
   selector: 'app-layout',
+   standalone: true,
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss',
-  standalone: true,
+
   imports: [
     MatToolbarModule,
     MatButtonModule,

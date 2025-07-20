@@ -7,6 +7,7 @@ import { Expense } from '@core/interfaces/expense-model';
 
 @Component({
   selector: 'app-category-summary-chart',
+   standalone: true,
   templateUrl: './category-summary-chart.component.html',
   imports: [HighchartsChartModule, MatIcon],
   changeDetection: ChangeDetectionStrategy.OnPush,

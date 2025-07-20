@@ -5,6 +5,7 @@ import { filter, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-page-header',
+   standalone: true,
   templateUrl: './page-header.component.html',
   styleUrl: './page-header.component.scss',
 })

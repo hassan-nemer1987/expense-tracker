@@ -17,6 +17,7 @@ import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-user-details',
+   standalone: true,
   imports: [
     MatDialogTitle,
     MatDialogContent,

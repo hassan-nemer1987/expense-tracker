@@ -18,6 +18,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 
 @Component({
   selector: 'app-login',
+  
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
   imports: [

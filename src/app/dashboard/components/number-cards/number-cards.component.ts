@@ -6,6 +6,7 @@ import { ExpenseSummary } from '../../interfaces/expense-summary';
 
 @Component({
   selector: 'app-number-cards',
+   standalone: true,
   templateUrl: './number-cards.component.html',
   imports: [MatCardContent, MatIcon, NgClass, MatCard, NgIf],
   changeDetection: ChangeDetectionStrategy.OnPush,
